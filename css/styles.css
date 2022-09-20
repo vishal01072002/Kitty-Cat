@@ -1,0 +1,181 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 5rem 10rem 8rem;
+}
+
+/* --------------------------------------- title ---------------------- */
+#title {
+    background-color: #ff4c68;
+    color: #ffffff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 2rem 10rem 9rem;
+}
+
+/* --------------------------------------- section ---------------------- */
+.section-heading{
+    font-weight: 600;
+}
+
+/* -------------------------------------- heading ------------------------------ */
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3;
+}
+
+.big-heading{
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+
+p {
+    color: #757575;
+}
+
+/* ------------------------------------------ navbar ------------------------------ */
+
+.navbar {
+    padding-bottom: 6rem;
+}
+
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 1.2rem;
+}
+
+.phone-img {
+    transform: rotate(19deg);
+    width: 17%;
+    position: absolute;
+}
+
+.mybtn {
+    margin: 6% 5% 0 0;
+    padding:7px 30px;
+}
+
+/* --------------------------------- features ---------------------------- */
+#features {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-used {
+    padding: 3.5rem;
+}
+
+.feature-icons {
+    color: rgb(247, 92, 35);
+    padding-bottom: 10px;
+}
+
+.feature-icons:hover {
+    color: #ff4c68;
+}
+
+
+/* -------------------------------- Testimonials ----------------------------*/
+
+#testimonials {
+    
+    background-color: #ef8172;
+    color: #ffffff;
+}
+
+.testimonial-img {
+    width: 18%;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+.testimonials-text{
+    font-weight: 600;
+    font-size: 3rem;
+}
+/* press */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 4%;
+}
+
+.press-logo {
+    width: 15%;
+    /*margin top  L/R  botom */
+    margin: 20px 20px 50px;
+}
+
+
+/* -------------------------- pricing ------------------------ */
+
+.pricing-card-heading{
+    font-weight: 600;
+}
+
+.pricing-heading{
+    font-size: 3rem;
+}
+.col{
+    padding: 4rem 4rem;
+}
+
+
+/* ----------------------------------------- media querry --------------------- */
+@media (max-width: 991.20px) {
+    .phone-img{
+        position: static;
+        transform: rotate(0);
+        width: 45%;
+    }
+
+    .row{
+        text-align: center;
+    }
+    
+    .phone{
+        padding-top: 3.2rem;
+    }
+
+    .col{
+        padding: 1rem 1rem;
+    }
+
+    #pricing .container-fluid{
+        padding: 5rem 5rem 8rem;
+    }
+}
+
+/* -------------------------------------- cta -------------------------------- */
+#cta{
+    background-color: #ff4c68;
+    /* padding: 3rem 20rem; */
+    color: #ffffff;
+}
+
+/* ------------------------------------- footer ----------------------------- */
+#footer{
+    padding: 4rem 0;
+}
+
+.footicon{
+    margin: 20px 20px;
+    color: rgb(54, 54, 54);
+}
